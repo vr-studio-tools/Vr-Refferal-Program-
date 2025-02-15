@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Particles.js Background */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+}
+
+/* Header */
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+#typewriter {
+  font-family: 'Press Start 2P', cursive;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; }
+}
+
+/* Social Links */
+.social-links a {
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff5722 !important;
+}
+
+/* Referral Links */
+.referral-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
